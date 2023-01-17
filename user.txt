@@ -1,0 +1,170 @@
+"overfl
+"addform"
+nothin0g
+
+
+
+
+
+let x = document.forms["myForm"]["fname"].value;
+let name = document.forms["myForm"]["fname"].value;
+let title = document.forms["myForm"]["ftitle"].value;
+let categories = document.forms["myForm"]["fcategories"].value;
+let link = document.forms["myForm"]["flink"].value;
+let date = document.forms["myForm"]["fdate"].value;
+let description = document.forms["myForm"]["fdescription"].value;
+
+
+
+
+
+
+let x = document.getElementById("container");
+const message =  document.createElement("div");
+message.classList.add("message");
+message.innerText = " i add something";
+x.appendChild(message);
+
+
+const period  =  document.createElement("div");
+period.classList.add("period");
+
+const datetim  =  document.createElement("div");
+datetim.classList.add("datetim");
+const datetimp =  document.createElement("p");
+datetimp.innerText= "date is 0000000";
+datetim.appendChild(datetimp);
+period.appendChild(datetim);
+message.appendChild(period);
+
+const flow  =  document.createElement("div");
+flow.classList.add("flow");
+
+const out  =  document.getElementById("out").innerHTML;
+out.classList.add("out");
+flow.appendChild(out);
+message.appendChild(flow);
+
+const synou  =  document.createElement("div");
+synou.classList.add("synou");
+
+const parout  =  document.createElement("div");
+parout.classList.add("parout");
+
+const inn  =  document.getElementById("in");
+inn.classList.add("in");
+
+const synin  =  document.createElement("div");
+synin.classList.add("synin");
+
+const parin  =  document.createElement("div");
+message.classList.add("message");
+
+const summary  =  document.createElement("div");
+summary.classList.add("summary");
+
+const tofrom  =  document.createElement("div");
+message.classList.add("message");
+
+const toto  =  document.getElementById("toto");
+toto.classList.add("toto");
+
+const name  =  document.createElement("div");
+name.classList.add("name");
+const namep =  document.createElement("p");
+namep.innerText ="eloi divalier";
+
+const amount  =  document.createElement("div");
+amount.classList.add("amount");
+
+const amu  =  document.getElementById("amu");
+amu.classList.add("amu");
+
+const fr  =  document.createElement("div");
+fr.classList.add("fr");
+const frp =  document.createElement("p");
+frp.innerText ="020393039309";
+fr.appendChild(frp)
+
+const purpose  =  document.createElement("div");
+purpose.classList.add("purpose");
+const purposep =  document.createElement("p");
+purposep.innerText ="ammamamamammamamamam";
+
+const brief  =  document.createElement("div");
+brief.classList.add("brief");
+
+const rcell  =  document.getElementById("rcell");;
+rcell.classList.add("rcell");
+
+const airt  =  document.getElementById("airt");;
+airt.classList.add("airt");
+
+const menus  =  document.createElement("div");
+menus.classList.add("menus");
+
+const update  =  document.createElement("div");
+update.classList.add("update");
+
+const remove  =  document.createElement("div");
+remove.classList.add("remove");
+alert("you inserted");
+
+
+
+
+.addform, .nothing, .filterr{
+  background-color: red;
+  width: 500px;
+  height:500px;
+  position: fixed;
+  margin-left: 24%;
+  opacity: 1;
+  border: solid 4px blue;
+  border-radius: 10px;
+  border: solid 2px blue;
+}
+
+.filterr{
+  display: none;
+}
+
+.addform form{
+  border: dashed 2px yellow;
+  margin: 15%;
+}
+
+.addform form input, .addform form select{
+  float: right;
+  border-color: yellow;
+  border-radius: 2px;
+}
+
+.addform{
+  display: ;
+}
+
+
+.noth{
+  border: dashed 2px yellow;
+  font-size: 1em;
+  margin-top: 30%
+}
+
+
+.noth button{
+
+}
+.nothing{
+  display: none;
+}
+
+
+
+
+
+
+
+background: linear-gradient(-45deg, yellow, red, yellow, red);
+background-size: 400% 400%;
+animation: gradient 30s ease infinite;

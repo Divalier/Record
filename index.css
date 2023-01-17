@@ -1,0 +1,483 @@
+body {
+background: linear-gradient(-45deg, yellow, red, yellow, red);
+background-size: 400% 400%;
+animation: gradient 30s ease infinite;
+height: 100vh;
+font-family: "Sofia", sans-serif;
+}
+
+p{
+  margin:0px;
+}
+
+.container{
+  background-color: #ffffcc;
+  margin: 10%;
+  width: 80%;
+  height: auto;
+  border-radius: 2%;
+  font-family: "Sofia", sans-serif;
+}
+
+.nav {
+  width: 100%;
+  height: 50px;
+  border-bottom: dashed 2px blue;
+}
+
+.nav:hover{
+  transition: 1s;
+  border-bottom: solid 2px blue;
+}
+
+.nav button{
+  float: left;
+  background-color: inherit;
+  border: none;
+  margin-left: 10px;
+  font-family: "Sofia", sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+
+}
+
+.nav button img{
+  height: 40px;
+  width: 80px;
+  border-radius: 20%;
+  margin-top: 5px;
+}
+
+.butt{
+  width: auto;
+  height: 50px;
+  background-color:;
+  float: left;
+}
+
+.nav input{
+  width: 150px;
+  height: 20px;
+  margin: 0px;
+  border-top: solid 2px yellow;
+  border-bottom: solid 2px red;
+  border-left: solid 2px yellow;
+  border-right: solid 2px red
+}
+
+.nav input:hover {
+  transition: 0.5s;
+  border-top: solid 2px red;
+  border-bottom: solid 2px yellow;
+  border-left: solid 2px red;
+  border-right: solid 2px yellow;
+}
+
+#home{
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#home button:hover{
+  transition: 0.5s;
+  border-top: solid 2px yellow;
+  border-bottom: solid 2px red;
+  border-left: solid 2px yellow;
+  border-right: solid 2px red;
+  border-bottom-right-radius: 20%;
+}
+
+#Search button:hover{
+  transition: 0.5s;
+  border-top: solid 2px yellow;
+  border-bottom: solid 2px red;
+  border-left: solid 2px yellow;
+  border-right: solid 2px red;
+  border-bottom-right-radius: 20%;
+}
+
+#filter button:hover{
+  transition: 0.5s;
+  border-top: solid 2px yellow;
+  border-bottom: solid 2px red;
+  border-left: solid 2px yellow;
+  border-right: solid 2px red;
+  border-bottom-right-radius: 20%;
+}
+
+
+#mtn{
+  margin-right: 2%;
+}
+#tigo{
+  margin-right: 4%;
+}
+
+.nav button img:hover{
+  transition: 0.5s;
+  height: 30px;
+  width: 70px;
+  border-radius: 25%;
+  margin-top: 10px;
+}
+
+#insearch{
+  margin-top: 10px;
+}
+#Search{
+  margin-top: 10px;
+}
+
+.add{
+  border: solid 2px red;
+  height: 40px;
+  width: 60px;
+  float: right;
+  margin-right: 5%;
+  border-radius: 50%;
+  background-color: ;
+}
+.add button{
+  margin-top: 6px;
+  margin-right: 10px;
+  position:;
+  background-color:;
+}
+
+.add :hover{
+  background-color: red;
+  transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.message{
+  border-top: solid 2px yellow;
+  border-bottom: solid 2px red;
+  border-left: solid 2px yellow;
+  border-right: solid 2px red;
+  border-radius: 10px;
+  width: 96%;
+  height: auto;
+  margin: 30px 2% 5px 2%;
+}
+
+.period{
+  width: calc(100% - 13px);
+  height: 30px;
+  margin: 5px;
+}
+.datetim{
+  width: 60%;
+  height: 86%;
+  float: left;
+  margin: 0px;
+}
+.flow{
+  border: solid 2px black;
+  width: 18%;
+  height: 86%;
+  float: right;
+  margin: 0px;
+  background-color: red;
+  border-radius: 10%;
+}
+
+.out{
+  display: block;
+}
+.out , .IN{
+  margin-left: 8px;
+}
+.flow p{
+  font-weight: bolder;
+  text-emphasis: 1em;
+  font-size: 0.7em;
+}
+.synout , .parout ,.synin ,.parin{
+  float: left;
+}
+
+.synou , .synin{
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  background-color: #ffffcc;
+}
+
+.synout p, .synin p{
+  font-weight: 1000;
+  margin-left: 8px;
+}
+
+.summary{
+  width: calc(100% - 13px);
+  height: 150px;
+  margin: 5px;
+}
+.tofrom{
+  width: calc(100% - 4px);
+  height: 28px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+.amount{
+  width: calc(100% - 4px);
+  height: 28px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+.purpose{
+  width: calc(100% - 4px);
+  height: 48px;
+  margin: 0px;
+}
+.purpose p{
+  align-content: center;
+}
+
+.brief{
+  width: calc(100% - 13px);
+  height: 30px;
+  margin: 5px;
+}
+
+.brief img{
+  height: 28px;
+  width: auto;;
+  margin-left: 48%;
+}
+
+.Rcell{
+  display: block;
+}
+.menus{
+  width: calc(100% - 13px);
+  height: 30px;
+  margin: 5px;
+}
+.update{
+  width: 30%;
+  height: 86%;
+  float: left;
+  margin: 0px;
+}
+.remove{
+  width: 30%;
+  height: 86%;
+  float: right;
+  margin: 0px;
+}
+
+.toto{
+  width: 30%;
+  height: 86%;
+  float: left;
+  margin: 0px;
+}
+.name{
+  width: 30%;
+  height: 86%;
+  float: right;
+  margin: 0px;
+}
+
+.name p{
+  float: right;
+}
+.amu{
+  width: 30%;
+  height: 86%;
+  float: left;
+  margin: 0px;
+}
+
+.fr{
+  width: 30%;
+  height: 86%;
+  float: right;
+  margin: 0px;
+}
+
+.fr p{
+  float: right;
+}
+
+
+
+
+
+
+
+.menus button{
+  margin: 0px;
+  height: 28px;
+  width: 100%;
+  background: none;
+  border: none;
+  border-bottom: solid blue 2px;
+  border-bottom-right-radius: 50%;
+  font-family: "Lucida Handwriting", "Courier New", monospace;
+  font-size: 1em;
+  font-weight: bold;
+}
+.menus :hover{
+  background-image: linear-gradient(to right ,  yellow, red);
+  border-top-left-radius: 50%;
+  border-bottom-color: orange;
+  transition: 0.6s;
+}
+
+
+
+
+
+
+
+.mysimple{
+  display: none;
+}
+
+
+
+
+
+
+
+.overfl{
+  width: calc(100% + 150px);
+  height: calc(100% + 150px);
+  opacity: 0.7;
+  background: linear-gradient(-45deg, yellow, red, yellow, red);
+  background-size: 400% 400%;
+  animation: gradient 30s ease infinite;
+  position: fixed;
+  display: block;
+  transition: 1s;
+  margin-top: -150px;
+  margin-left: -150px;
+}
+
+.addform, .nothing, .filterr{
+  background-color: red;
+  width: 500px;
+  height:500px;
+  position: fixed;
+  margin-left: 24%;
+  opacity: 1;
+  border: solid 4px blue;
+  border-radius: 10px;
+  border: solid 2px blue;
+  display: none;
+}
+
+
+.addform form{
+  border: dashed 2px yellow;
+  margin: 15%;
+  height: 200px;
+  width: 400px;
+}
+
+.addform form p span{
+  width: 100px;
+}
+
+.addform form input, .addform form select{
+  float: right;
+  border-color: yellow;
+  border-radius: 2px;
+}
+
+.addform{
+  display: none;
+}
+
+
+.noth{
+  border: dashed 2px yellow;
+  font-size: 1em;
+  margin-top: 30%
+}
+
+
+
+
+.noth button{
+  margin: 0px;
+  height: 28px;
+  width: 100%;
+  background: none;
+  border: none;
+  border-bottom: solid blue 2px;
+  border-bottom-right-radius: 50%;
+  font-family: "Lucida Handwriting", "Courier New", monospace;
+  font-size: 1em;
+  font-weight: bold;
+}
+.noth button :hover{
+  background-image: linear-gradient(to right ,  yellow, red);
+  border-top-left-radius: 50%;
+  border-bottom-color: orange;
+  transition: 0.6s;
+}
+
+
+.nothing{
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes gradient {
+0% {
+background-position: 0% 50%;
+}
+
+50% {
+background-position: 100% 50%;
+}
+
+100% {
+background-position: 0% 50%;
+}
+}
